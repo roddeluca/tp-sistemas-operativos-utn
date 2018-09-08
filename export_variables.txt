@@ -1,0 +1,12 @@
+vi .bashrc para cambios permanentes
+
+lld ejecutable
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:
+
+
+kernel: ${workspace_loc}/commons/Debug:${workspace_loc}/parser/Debug:/home/utnso/git/tp-2014-1c-grade/src/msgUMV/Debug:/home/utnso/git/tp-2014-1c-grade/src/protocolo_kernel_cpu/Debug
+
+cpu : ${workspace_loc}/commons/Debug:${workspace_loc}/parser/Debug:/home/utnso/git/tp-2014-1c-grade/src/msgUMV/Debug:/home/utnso/git/tp-2014-1c-grade/src/kernel/Debug:/home/utnso/git/tp-2014-1c-grade/src/protocolo_kernel_cpu/Debug
+
+umv: ${workspace_loc}/commons/Debug: 
